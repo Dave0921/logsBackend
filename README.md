@@ -128,10 +128,13 @@ GET /api/v1/retrieve?userId=user_id&type=log_type&start=start_time&end=end_time
 ### Parameters:
 user_id: String 
 * Filter the logs by user id
+
 log_type: String
 * Filters the logs by log type
+
 start_time: date (iSO8601 format)
 * Filters the logs after the start_time date (inclusive)
+
 end_time: date (iSO8601 format)
 * Filters the logs before the end_time date (inclusive)
 
